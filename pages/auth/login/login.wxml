@@ -1,0 +1,7 @@
+<!--pages/auth/login/login.wxml-->
+<view class="container">
+    <view class="login-box">
+        <button type="primary" class="wx-login-btn" open-type="getUserInfo" size="defaultSize" bindgetuserinfo="wxLogin">微信直接登录</button>
+        <button type="primary" class="account-login-btn" size="defaultSize" bindtap="accountLogin">账号登录</button>
+    </view>
+</view>

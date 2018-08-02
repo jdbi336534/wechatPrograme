@@ -1,0 +1,36 @@
+/* index.wxss */
+
+.container {
+    overflow: hidden;
+}
+
+.profile-info {
+    width: 100%;
+    height: 280rpx;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    padding: 0 30.25rpx;
+    background: #333;
+}
+
+.profile-info .avatar {
+    height: 148rpx;
+    width: 148rpx;
+    border-radius: 50%;
+}
+
+.profile-info .info {
+    padding-top:10rpx;
+}
+
+.profile-info .name {
+    display: block;
+    height: 45rpx;
+    line-height: 45rpx;
+    color: #fff;
+    font-size: 37.5rpx;
+    margin-bottom: 10rpx;
+}
